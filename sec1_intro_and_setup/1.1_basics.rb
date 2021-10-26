@@ -10,5 +10,5 @@ p address
 p address[5]
 
 # reverse the array
-new_address = address.reverse!
-p new_address
+address.reverse!
+p address
