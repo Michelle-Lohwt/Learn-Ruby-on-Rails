@@ -10,11 +10,11 @@ puts "Enter 1 for multiply, 2 for addition, 3 for subtraction"
 
 user_entry = gets.chomp
 if user_entry == "1"
-    puts "You have chosen multiply"
+  puts "You have chosen multiply"
 elsif user_entry == "2"
-    puts "You have chosen add"
+  puts "You have chosen add"
 elsif user_entry == "3"
-    puts "You have chosen subtract"
+  puts "You have chosen subtract"
 else
-    puts "Invalid entry"
+  puts "Invalid entry"
 end
