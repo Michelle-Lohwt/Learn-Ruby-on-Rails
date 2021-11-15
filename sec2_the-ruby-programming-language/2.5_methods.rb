@@ -1,6 +1,7 @@
 def multiply(first, second)
-    first.to_f * second.to_f    # automatically return the last line, 
-                                # hence no need to explicitly call "return"
+    # automatically return the last line, 
+    # hence no need to explicitly call "return"
+    first.to_f * second.to_f    
 end
 
 def divide(first, second)
