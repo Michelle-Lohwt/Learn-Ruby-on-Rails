@@ -1,23 +1,23 @@
 def multiply(first, second)
-    # automatically return the last line, 
-    # hence no need to explicitly call "return"
-    first.to_f * second.to_f    
+  # automatically return the last line, 
+  # hence no need to explicitly call "return"
+  first.to_f * second.to_f    
 end
 
 def divide(first, second)
-    first.to_f / second.to_f
+  first.to_f / second.to_f
 end
 
 def add(first, second)
-    first.to_f + second.to_f
+  first.to_f + second.to_f
 end
 
 def subtract(first, second)
-    first.to_f - second.to_f
+  first.to_f - second.to_f
 end
 
 def mod(first, second)
-    first.to_f % second.to_f
+  first.to_f % second.to_f
 end
 
 puts "Simple calculator"
