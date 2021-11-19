@@ -13,7 +13,7 @@ p x               # 1..10
 p x.to_a.shuffle! # [8, 5, 7, 4, 1, 6, 10, 3, 9, 2]
 p x               # 1..10
 
-z = x.to_a.shuffle!
+z = x.to_a.shuffle
 p z               # [9, 10, 7, 1, 6, 8, 2, 3, 4, 5]
 
 x = (1..10).to_a
