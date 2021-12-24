@@ -1,10 +1,10 @@
 users = [
-        {username: "michelle", password: "password1"},
-        {username: "apple", password: "password2"},
-        {username: "data", password: "password3"},
-        {username: "delta", password: "password4"},
-        {username: "alpha", password: "password5"},
-        ]
+  {username: "michelle", password: "password1"},
+  {username: "apple", password: "password2"},
+  {username: "data", password: "password3"},
+  {username: "delta", password: "password4"},
+  {username: "alpha", password: "password5"},
+  ]
 
 def auth_user(username, password, list_of_users)
   list_of_users.each do |user_record|
