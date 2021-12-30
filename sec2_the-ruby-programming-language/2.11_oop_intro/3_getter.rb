@@ -30,7 +30,7 @@ end
 michelle = Student.new
 puts michelle                         # First name:         //(accessing the to_s built-in method)
 
-# (Refer line 45 to understand why line 37, 38 is commented out)
+# (Refer line 45 to understand why line 34, 35 is commented out)
 # michelle.first_name("Michelle")
 # puts michelle                       # in `first_name': wrong number of arguments (given 1, expected 0) (ArgumentError)
 
