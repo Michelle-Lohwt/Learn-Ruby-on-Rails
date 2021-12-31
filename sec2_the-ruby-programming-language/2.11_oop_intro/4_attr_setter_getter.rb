@@ -32,5 +32,5 @@ puts michelle.last_name     # Loh
 puts michelle.email         # michelle@example.com
 puts michelle.username      #                           //nothing is output
 
-# Why nothing is output in Line 32?
+# Why nothing is output in Line 33?
 # because we did not initialise the object but we initailise in the class
