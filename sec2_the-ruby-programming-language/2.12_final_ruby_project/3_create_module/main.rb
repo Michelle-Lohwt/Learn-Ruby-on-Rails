@@ -2,7 +2,7 @@
 require_relative 'crud_module'
 
 # files are not in same directory
-# $LOAD_PATH << "."   # `.` is the universal sign for your current directory
+# $LOAD_PATH << "./<filename>"    // `.` is the universal sign for your current directory
 # require 'crud_module'
 
 users = [
