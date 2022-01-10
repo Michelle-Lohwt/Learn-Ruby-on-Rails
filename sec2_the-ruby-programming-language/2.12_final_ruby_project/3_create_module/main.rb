@@ -11,7 +11,7 @@ users = [
   {username: "data", password: "password3"},
   {username: "delta", password: "password4"},
   {username: "alpha", password: "password5"},
-  ]
+]
 
 hashed_users = Crud.create_secure_users(users)
 puts hashed_users
