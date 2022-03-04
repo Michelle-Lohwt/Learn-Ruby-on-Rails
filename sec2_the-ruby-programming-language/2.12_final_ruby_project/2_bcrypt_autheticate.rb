@@ -6,7 +6,7 @@ users = [
   {username: "data", password: "password3"},
   {username: "delta", password: "password4"},
   {username: "alpha", password: "password5"},
-  ]
+]
 
 # Hash the password
 def create_hash_digest(password)
